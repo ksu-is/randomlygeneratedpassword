@@ -35,3 +35,5 @@ for char in range(1, num_numbers + 1):
 
     # Randomly shuffles password list
     random.shuffle(p_list)
+
+    password = ""
