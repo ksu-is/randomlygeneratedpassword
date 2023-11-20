@@ -32,3 +32,6 @@ for char in range(1, num_symbols + 1):
 
 for char in range(1, num_numbers + 1):
     p_list.append(random.choice(symbols))
+
+    # Randomly shuffles password list
+    random.shuffle(p_list)
