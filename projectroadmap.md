@@ -4,3 +4,4 @@ RoadMap FIle
 [x]  Import variables and characters to be used in password generator
 [x]  Add for loops 
 [x]  Added random password shuffle
+[x]  Finish code and verify it works

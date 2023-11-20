@@ -37,3 +37,9 @@ for char in range(1, num_numbers + 1):
     random.shuffle(p_list)
 
     password = ""
+for char in p_list:
+    password += char
+
+# convert list to string
+pwd = ''.join(p_list)
+print(f"Your random password to use is: {pwd}")
