@@ -1,4 +1,4 @@
-import secrets
+import random
 
 # Capital and lowercase letters used in password generator
 letters = [
@@ -11,3 +11,16 @@ letters = [
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 # Symbols used in password generator
 symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+# Asks the user for how many letters they want in their password
+num_letters = int(input("How many letters would you like in your password?\n"))
+
+# Asks the user how many symbols they want in their password
+num_symbols = int(input("How many letters would you like in your password?\n"))
+
+# Asks the user how many numbers they want in their password
+num_numbers = int(input("How many numbers would you like?\n"))
+
+# password list
+p_list = []
+
