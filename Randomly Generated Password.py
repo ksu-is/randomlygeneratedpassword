@@ -21,6 +21,14 @@ num_symbols = int(input("How many letters would you like in your password?\n"))
 # Asks the user how many numbers they want in their password
 num_numbers = int(input("How many numbers would you like?\n"))
 
-# password list
+# Password list
 p_list = []
 
+for char in range(1, num_letters + 1):
+    p_list.append(random.choice(letters))
+
+for char in range(1, num_symbols + 1):
+    p_list.append(random.choice(numbers))
+
+for char in range(1, num_numbers + 1):
+    p_list.append(random.choice(symbols))
